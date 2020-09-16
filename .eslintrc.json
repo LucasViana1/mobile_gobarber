@@ -1,6 +1,7 @@
 {
   "env": {
-    "es6": true
+    "es6": true,
+    "browser": true
   },
   "extends": [
     "plugin:react/recommended",
@@ -24,6 +25,8 @@
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
+    "camelcase": "off",
+    "no-duplicate-imports": "off",
     "react/jsx-props-no-spreading": "off",
     "no-unused-expressions": "off",
     "prettier/prettier": "error",
